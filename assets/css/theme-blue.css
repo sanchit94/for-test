@@ -51,7 +51,7 @@ Version	 :	1.1.0
     .navbar .navbar-nav > li > a.nav-link.btn.outline:hover {
       background: #4d4cff; }
   .navbar .navbar-nav > li > a.nav-link.btn:hover {
-    background: #278ffd; }
+    background: linear-gradient(to right, #7d8dff, #60cdff); }
 
 .navbar .navbar-nav > li:hover > a:not(.btn), .navbar .navbar-nav > li.active > a:not(.btn) {
   color: #b2b2ff; }
