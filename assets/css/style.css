@@ -2613,7 +2613,7 @@ hr, .hr {
     position: absolute;
     content: '';
     border-radius: 50%;
-    background: linear-gradient(240deg, #ff826c 0%, #ffffff 100%); }
+    background: linear-gradient(240deg, #fe639c 0%, #ff826c 100%); }
   .circle-tip:after {
     height: 46px;
     width: 46px;
