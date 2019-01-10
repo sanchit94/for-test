@@ -1,0 +1,165 @@
+/* Variables */
+/* Colors */
+/* Sizes */
+/* line 1, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+.addui-slider {
+  display: block;
+  box-sizing: border-box;
+  touch-action: none;}
+  /* line 5, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+  .addui-slider * {
+    box-sizing: border-box; }
+  /* line 7, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+  .addui-slider:not(.addui-slider-isrange) {
+    cursor: pointer; }
+  /* line 11, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+  .addui-slider .addui-slider-track {
+    display: block;
+    position: relative;
+    background: #e6e6e6;
+    border: 1px solid #fff;
+    border-radius: 4px; }
+    /* line 17, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+    .addui-slider .addui-slider-track .addui-slider-range {
+      display: block;
+      background: -webkit-linear-gradient(45deg, #fe60a1 0%, #ff8765 100%);
+      border-radius: 4px;
+      position: absolute;
+      border: 1px solid #fff; }
+    /* line 24, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+    .addui-slider .addui-slider-track .addui-slider-handle {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: rgba(63, 81, 181, 0);
+      box-shadow: 0 0 5px rgba(63, 81, 181, 0);
+      position: absolute;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 1s, box-shadow 1s;
+      z-index: 0; }
+      /* line 36, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider .addui-slider-track .addui-slider-handle .addui-slider-value {
+        display: block;
+        float: right;
+        background: rgba(63, 81, 181, 0);
+        width: 185px;
+        height: 75px;
+        border-radius: 50%;
+        margin-top: 0px;
+        color: white;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 1s, background 1s, transform 1s, margin 1s, border-radius 1s;
+        transform: scale(1, 0);
+        transform-style: preserve-3d;
+        position: absolute;
+        left: -4rem;
+        top: -1.2rem;
+        z-index: 1; }
+
+        .addui-slider .addui-slider-track .addui-slider-handle .addui-slider-value:before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  border: 10px solid #59687c;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+
+        /* line 53, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+        .addui-slider .addui-slider-track .addui-slider-handle .addui-slider-value span {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          padding: 0 10px 0 10px;
+          line-height: 35px;
+          position: absolute;
+          z-index: 1; }
+        /* line 68, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+        .addui-slider .addui-slider-track .addui-slider-handle .addui-slider-value {
+          background: #59687c;
+          opacity: 1;
+          transform: scale(1, 1);
+          margin-top: -60px;
+          border-radius: 5% 5% 5% 5%; }
+      /* line 77, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss 
+      .addui-slider .addui-slider-track .addui-slider-handle.addui-slider-handle-active {
+        background: rgba(63, 81, 181, 0.5);
+        box-shadow: 0 0 5px rgba(63, 81, 181, 0.5); }
+        /* line 81, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+        .addui-slider .addui-slider-track .addui-slider-handle.addui-slider-handle-active .addui-slider-value {
+          background: #59687c;
+          opacity: 1;
+          transform: scale(1, 1);
+          margin-top: -60px;
+          border-radius: 5% 5% 5% 5%; }
+      /* line 90, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider .addui-slider-track .addui-slider-handle:after {
+        display: block;
+        content: " ";
+        width: 32px;
+        height: 32px;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+        border: 3px solid #fff;
+        background: #ff8765;
+        border-radius: 25px;
+        position: relative;
+        top: 13px;
+        left: 13px; }
+  /* line 105, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+  .addui-slider.addui-slider-vertical {
+    height: calc(100% - 50px);
+    width: 50px;
+    margin: 25px 16px; }
+    /* line 110, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+    .addui-slider.addui-slider-vertical .addui-slider-track {
+      height: 100%;
+      width: 4px;
+      top: 0;
+      left: 23px; }
+      /* line 116, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider.addui-slider-vertical .addui-slider-track .addui-slider-range {
+        width: 4px;
+        height: auto; }
+      /* line 121, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider.addui-slider-vertical .addui-slider-track .addui-slider-handle {
+        left: -24px;
+        top: auto;
+        transform: translateY(50%); }
+        /* line 126, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+        .addui-slider.addui-slider-vertical .addui-slider-track .addui-slider-handle.addui-slider-handle-l {
+          z-index: 2; }
+  /* line 133, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+  .addui-slider.addui-slider-horizontal {
+    height: 50px;
+    width: calc(100% - 50px);
+    margin: 16px 25px; }
+    /* line 138, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+    .addui-slider.addui-slider-horizontal .addui-slider-track {
+      height: 10px;
+      width: 100%;
+      top: 23px;
+      left: 0; }
+      /* line 144, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider.addui-slider-horizontal .addui-slider-track .addui-slider-range {
+        width: auto;
+        height: 10px; }
+      /* line 149, C:/wamp/www/github/addSlider/src/partials/_addSlider.scss */
+      .addui-slider.addui-slider-horizontal .addui-slider-track .addui-slider-handle {
+        left: auto;
+        top: -24px;
+        transform: translateX(-50%);       
+        }
+
+        div.range {
+            margin-bottom: 3rem;
+        }
+
+/*# sourceMappingURL=addSlider.css.map */

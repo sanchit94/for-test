@@ -1,0 +1,348 @@
+/*Centering items*/
+.centered {
+	margin: 0 auto;
+}
+
+.fit-width {
+	width: fit-content;
+	width: -moz-fit-content;
+}
+
+@media (max-width: 767px) {
+	.centered-sm {
+		margin: 0 auto;
+	}
+	
+/*	Pushing the hero section upwards*/
+	.neg-marg-btm-3-sm {
+		margin-bottom: -5rem;
+	}
+	
+/*	The cards in benefits section need this property to be visible*/	
+	.section.bg-light.ui-showcase-section > div > div > div:nth-child(2) {
+		min-height: 20rem;
+	}
+	
+	.ui-showcase-section div.section-heading {
+		text-align: center;
+	}
+}
+
+/*Adding background to ui-hero and Pulling ui-hero up*/
+@media (min-width: 768px) {
+	.ui-hero.hero-lg {
+		background: url('../img/landing-page/BG.png') no-repeat center center fixed;
+		background-size: contain;
+		 background-attachment: scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		height: 100vh;
+	}
+	
+	.visible-sm {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.visible-sm {
+		height: 37rem;
+	}
+}
+
+@media (min-width: 1199px) {
+	.ui-hero.hero-lg .col-sm-12:first-of-type {
+		margin-top: -6rem;
+	}
+}
+
+@media (min-width: 1439px) {
+	.ui-hero.hero-lg .col-sm-12:first-of-type {
+		margin-top: -6.5rem;
+	}
+}
+
+@media (min-width: 1535px) {
+	.ui-hero.hero-lg .col-sm-12:first-of-type {
+		margin-top: -6rem;
+	}
+}
+
+@media (min-width: 1681px) {
+	.ui-hero.hero-lg .col-sm-12:first-of-type {
+		margin-top: -4rem;
+	}
+}
+
+.ui-hero.hero-center form {
+	max-width: 760px;
+}
+
+.actions .btn.no-marg {
+	border-radius: 0.25rem;
+}
+
+/*How it works section */
+
+.push-up {
+	position: relative;
+	top: -3rem;
+}
+
+.pull-down {
+	position: relative;
+	top: 3rem;
+}
+
+.works.section .section-heading .heading {
+		margin-bottom: 5rem;
+}
+
+
+
+@media (min-width: 768px) {
+
+	.works.section .col-md-4.direction::before {
+		display: block;
+		content: "";
+		position: absolute;
+		width: 5.525rem;
+		height: 5.2rem;
+		background: url("../img/landing-page/works/Curved_Arrow.png") no-repeat 0 0;
+		background-size: auto auto;
+		background-size: contain;
+		right: auto;
+	}
+
+	.works.section .col-md-4.direction.dir-1::before {
+		left: -0.5rem;
+		top: 4rem;
+	}
+
+	.works.section .col-md-4.direction.dir-2::before {
+		background: url("../img/landing-page/works/arrow-down-2.png") no-repeat 0 0;
+		background-size: auto auto;
+		background-size: contain;
+		width: 5.525rem;
+		height: 5.2rem;
+		left: -3.5rem;
+		top: 3rem;
+		transform: rotate(-25deg);
+	}
+	
+	
+	
+}
+
+@media (max-width: 767px) {
+	.works.section .section-heading .heading {
+		margin-bottom: 6rem;
+	}
+}
+
+
+
+
+/*Animated Modals*/
+
+#awesomeModal {
+		position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(57, 190, 185);
+    overflow-y: auto;
+    z-index: 9999;
+    opacity: 1;
+    animation-duration: 0.5s;
+}
+
+/*
+#btn-close-modal {
+		width:100%;
+		text-align: center;
+		cursor:pointer;
+		color:#fff;
+		margin-top: 6rem;
+}
+*/
+/*Benfit section content style*/
+.section .section-heading {
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/*Custom styles from https://codepen.io/shradhan/pen/wPLOJm for the card animation in Benefits section. */
+
+.benefit-cards a {
+  text-decoration: none;
+}
+
+.benefit-cards li > div {
+  margin: 0px;
+  padding: 0px;
+  line-height: 22px;
+  font-weight: 400;
+	text-align: center;
+}
+
+.benefit-cards .container-fluid p:not(:first-child) {
+  margin-top: 10px;
+}
+
+.benefit-cards .container-fluid {
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 500px;
+  position: relative;
+}
+
+.placeholder-1 {
+  position: relative;
+  transform-origin: 50% 100%;
+}
+
+.benefit-cards .container-fluid ul {
+  position: relative;
+  list-style: none;
+	top: -2rem;
+}
+
+.benefit-cards .container-fluid ul li {
+  padding: 35px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform-origin: 50% 100%;
+  border-radius: 4px;
+	font-size: 1.2rem;
+}
+
+
+.benefit-cards div.icon {
+	font-size: 3rem;
+	color: #19D9B4;
+	margin: 0.5rem auto 1rem;
+}
+
+.benefit-cards .tab-0 {
+  transform: translateY(-50px) scale(1.07);
+  opacity: 0;
+  z-index: 90;
+  filter: blur(10px);
+  transition: all 1s cubic-bezier(0.19, 0.49, 0.46, 0.96);
+	margin-top: -1rem;
+}
+
+.benefit-cards .tab-1 {
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  z-index: 80;
+  transform: scale(1);
+  transition: all 1s cubic-bezier(0.19, 0.49, 0.46, 0.96) 100ms;
+	min-height: 230px;
+}
+
+.benefit-cards .tab-2 {
+  transform: translateY(10px) scale(0.9);
+  opacity: 1;
+  z-index: 70;
+  background: #e2e7ed;
+  color: #e2e7ed;
+  transition: all 1s cubic-bezier(0.19, 0.49, 0.46, 0.96) 200ms;
+	margin-top: -1rem;
+}
+
+.benefit-cards .tab-3 {
+  transform: translateY(55px) scale(0.8);
+  opacity: 0.5;
+  z-index: 60;
+  background: #e2e7ed;
+  color: #e2e7ed;
+  transition: all 1s cubic-bezier(0.19, 0.49, 0.46, 0.96) 300ms;
+	margin-top: -2rem;
+}
+
+.benefit-cards .tab-4 {
+  transform: translateY(50px) scale(0.7);
+  opacity: 0;
+  z-index: 50;
+  background: grey;
+  color: grey;
+  transition: all 1s cubic-bezier(0.19, 0.49, 0.46, 0.96) 400ms;
+	margin-top: -1rem;
+}
+
+/*Checklist styling*/
+
+.checklist ul {
+	list-style: none;
+	margin: 2rem auto 1rem;
+	padding: 1px 0;
+	border-radius: 5px;
+	background: rgba(9,11,13,.1);
+}
+
+.checklist ul > li {
+	margin: 1px;
+	margin-top: 1px;
+	padding: 1rem 1.25rem 1.1rem;
+	text-align: left;
+	overflow: hidden;
+	background: #fff url(../img/landing-page/tick-color.svg) no-repeat right 3rem center;
+	background-size: auto auto;
+	background-size: 1.5rem;
+}
+
+.checklist ul > li.special {
+	background: #19D9B4 url(../img/landing-page/check-solid.svg) no-repeat right 3rem center;
+	background-size: 1.5rem;
+}
+
+.checklist ul > li > p {
+	width: 80%;
+	margin-bottom: 0;
+	padding-right: 3rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: rgba(9,11,13,.8);
+}
+
+.checklist ul > li.special > p {
+	color: white;
+}
+
+.checklist span.head {
+	line-height: 2rem;
+}
+
+.checklist ul > li > p > span:not(.head) {
+	font-weight: 400;
+	font-size: 1rem;
+	color: rgba(9,11,13,.45);
+	line-height: 1.5rem!important;
+}
+
+.checklist ul > li.special > p > span:not(.head) {
+	color: white;
+}
+
+
+/*Footer styling*/
+
+footer .footer-copyright {
+	height: 6rem;
+	max-height: 140px;
+	padding-top: 1.7rem;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	footer .footer-copyright {
+		padding-top: 1rem;
+	}
+}

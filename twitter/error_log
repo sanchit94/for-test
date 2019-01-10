@@ -1,0 +1,89 @@
+[03-Jan-2019 07:14:28 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":32,"message":"Could not authenticate you."}]} in /home/webumgfm/public_html/refer/twitter/src/TwitterOAuth.php:138
+Stack trace:
+#0 /home/webumgfm/public_html/refer/twitter/index.php(13): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/webumgfm/public_html/refer/twitter/src/TwitterOAuth.php on line 138
+[03-Jan-2019 07:16:39 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[03-Jan-2019 07:16:39 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[03-Jan-2019 07:16:40 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 30
+[04-Jan-2019 02:28:36 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:28:36 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:28:37 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 30
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 28
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined index: invite in /home/webumgfm/public_html/refer/twitter/index.php on line 30
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 32
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:29:38 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined variable: email in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[04-Jan-2019 02:29:38 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 50
+[04-Jan-2019 02:32:00 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:32:00 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 28
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined index: invite in /home/webumgfm/public_html/refer/twitter/index.php on line 30
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 32
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:32:01 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined variable: email in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[04-Jan-2019 02:32:01 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 50
+[04-Jan-2019 02:33:12 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:33:12 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 27
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 28
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined index: invite in /home/webumgfm/public_html/refer/twitter/index.php on line 30
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 31
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 32
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 35
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined variable: con in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:33:13 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/webumgfm/public_html/refer/twitter/index.php on line 36
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined variable: email in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[04-Jan-2019 02:33:13 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 50
+[04-Jan-2019 02:34:12 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:34:12 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:34:13 America/New_York] PHP Notice:  Undefined index: invite in /home/webumgfm/public_html/refer/twitter/index.php on line 38
+[04-Jan-2019 02:34:13 America/New_York] PHP Notice:  Undefined variable: email in /home/webumgfm/public_html/refer/twitter/index.php on line 47
+[04-Jan-2019 02:34:13 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 58
+[04-Jan-2019 02:36:57 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:36:57 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:36:58 America/New_York] PHP Notice:  Undefined index: invite in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[04-Jan-2019 02:36:58 America/New_York] PHP Notice:  Undefined variable: email in /home/webumgfm/public_html/refer/twitter/index.php on line 48
+[04-Jan-2019 02:36:58 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[04-Jan-2019 02:38:42 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:38:42 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:38:44 America/New_York] PHP Notice:  Undefined index: ref in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[04-Jan-2019 02:38:44 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[04-Jan-2019 02:40:03 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:40:03 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[04-Jan-2019 02:40:05 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[05-Jan-2019 01:29:21 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 01:29:21 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 01:29:22 America/New_York] PHP Notice:  Undefined index: ref in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[05-Jan-2019 01:29:22 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[05-Jan-2019 03:43:17 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:43:17 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:43:19 America/New_York] PHP Notice:  Undefined index: ref in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[05-Jan-2019 03:43:19 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[05-Jan-2019 03:45:41 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:45:41 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:45:42 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[05-Jan-2019 03:46:36 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:46:36 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 03:46:37 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
+[05-Jan-2019 04:38:47 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 04:38:47 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/webumgfm/public_html/refer/twitter/callback.php on line 9
+[05-Jan-2019 04:38:48 America/New_York] PHP Notice:  Undefined index: ref in /home/webumgfm/public_html/refer/twitter/index.php on line 39
+[05-Jan-2019 04:38:48 America/New_York] PHP Notice:  Undefined property: stdClass::$email in /home/webumgfm/public_html/refer/twitter/index.php on line 59
